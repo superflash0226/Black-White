@@ -1,0 +1,199 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+/* Navbar */
+header {
+    background-color: black;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.nav-logo {
+    height: 79px;
+    width: 150px;
+    background-color: black;
+}
+
+.top-logo {
+    background-image: url(logo.png);
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    margin-left: 0%;
+    margin-top: -74px;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #555;
+}
+
+.search-cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-cart input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-cart a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* Product Grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    padding: 20px;
+}
+
+.product-item {
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+}
+
+.product-item img {
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease;
+}
+
+.product-item:hover img {
+    transform: scale(1.05);
+}
+
+foot-panel2 {
+    background-color: black;
+    color: white;
+    height: 100px;
+    display: flex;
+    font-size: 20px;
+    justify-content: space-evenly;
+}
+
+ul {
+    margin-top: 20px;
+    margin-right: 110px;
+}
+
+.instagram {
+    margin-top: 40px;
+}
+
+.facebook {
+    margin-top: 12px;
+}
+
+.whatsapp {
+    margin-top: 12px;
+}
+
+.twitter {
+    margin-top: 12px;
+}
+
+.shoes {
+    margin-top: 10px;
+}
+
+.watches{
+    margin-top: 22px;
+}
+
+.perfumes{
+    margin-top: 22px;
+}
+
+.hoddies {
+    margin-top: 22px;
+}
+ul a{
+    display:block;
+    text-decoration: none;
+    font-size: 23px;
+    margin-top: 100px;
+    color: #dddddd;
+}
+
+.foot-panel3 {
+    background-color:black ;
+    /* border-top: 0.5px solid white; */
+    height: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bottom-logo {
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    color: white;
+    margin-left: 90%;
+    margin-top: -77px;
+}
+
+.foot-panel4{
+    background-color: black;
+    color: white;
+    height: 80px;
+    font-size: 0.9rem;
+    text-align: center;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.pages{
+    padding-top: 0px;
+}
+
+.copyright {
+    padding-top: 30px;
+}
