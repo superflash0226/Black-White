@@ -25,3 +25,50 @@
     border-left: 10px solid white;
     padding: 15px;
 }
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.ceo, 
+.co-founder, 
+.sales-manager {
+    padding: 15px;
+    transition: all 0.6s ease;
+}
+
+.ceo:hover, 
+.co-founder:hover, 
+.sales-manager:hover {
+    background-color: black;
+    color: white;
+    border-left: 10px solid white;
+    padding-left: 25px; /* Adjusted padding to maintain layout consistency */
+}
+
+/* --------- Responsive Design for Phones (max-width: 600px) --------- */
+@media screen and (max-width: 600px) {
+    * {
+        font-size: 14px;
+    }
+
+    .ceo, 
+    .co-founder, 
+    .sales-manager {
+        display: block;
+        width: 100%; 
+        padding: 20px; 
+        text-align: center; /* Center-align the content for mobile devices */
+        box-sizing: border-box;
+    }
+
+    .ceo:hover, 
+    .co-founder:hover, 
+    .sales-manager:hover {
+        background-color: black;
+        color: white;
+        border-left: none; /* Remove the left border for a clean mobile view */
+        border-top: 5px solid white; /* Use a top border instead to maintain design aesthetics */
+        padding-left: 20px;
+    }
+}
