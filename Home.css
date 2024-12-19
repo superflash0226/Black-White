@@ -304,6 +304,7 @@ ul a{
 }
 
 @media screen and (max-width: 600px) {
+<<<<<<< HEAD
    /* General Reset */
 * {
     margin: 0;
@@ -581,10 +582,57 @@ ul a {
         width: 80%;
     }
     
+=======
+    body {
+        font-size: 14px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .nav-logo {
+        width: 80px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .top-logo {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+        margin-top: 0;
+    }
+
+    .nav-search {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .search-input {
+        width: 100%;
+        font-size: 1rem;
+    }
+
+    .search-select {
+        width: 100%;
+    }
+
+    .search-icon {
+        width: 100%;
+        justify-content: center;
+    }
+
+>>>>>>> 1658d042c2a00495e52417d23c8df32600a7e22e
     .panel {
         flex-direction: column;
         font-size: 16px;
     }
+<<<<<<< HEAD
     
     .panel-ops {
         width: 100%;
@@ -609,3 +657,70 @@ ul a {
     }
 }
 }
+=======
+
+    .panel-ops p {
+        margin-left: 0;
+        padding: 10px 0;
+    }
+
+    .panel-deals {
+        font-size: 16px;
+    }
+
+    .hero-section {
+        height: 250px;
+        background-position: center;
+    }
+
+    .hero-msg {
+        width: 90%;
+        font-size: 0.85rem;
+    }
+
+    .foot-panel1 {
+        font-size: 14px;
+    }
+
+    .foot-panel2 {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .foot-panel3 {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    .bottom-logo {
+        width: 80px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .foot-panel4 {
+        font-size: 0.8rem;
+        padding: 10px;
+    }
+
+    ul {
+        margin-right: 0;
+    }
+
+    ul a {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+
+    .nav-cart i {
+        font-size: 25px;
+    }
+
+    .nav-cart {
+        font-size: 0.75rem;
+    }
+}
+>>>>>>> 1658d042c2a00495e52417d23c8df32600a7e22e
