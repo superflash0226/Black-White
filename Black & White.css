@@ -87,6 +87,7 @@ a {
   padding: 10px;
   cursor: pointer;
 }
+
 @media screen and (max-width: 600px) {
     * {
         font-size: 14px;
@@ -144,4 +145,3 @@ a {
         padding: 10px 0;
     }
 }
->>>>>>> 1658d042c2a00495e52417d23c8df32600a7e22e
